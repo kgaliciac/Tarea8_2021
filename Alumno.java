@@ -1,10 +1,12 @@
 package Tarea8;
 
 public class Alumno {
+    //atributos
     private String carne;
     private String nombre;
     private int edad;
-
+    
+    //constructor
     public Alumno(String carne, String nombre, int edad) {
         this.carne = carne;
         this.nombre = nombre;
